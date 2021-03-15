@@ -1,0 +1,17 @@
+{
+  "name": "template-job-microservice-js",
+  "version": "1.0.0",
+  "description": "A tiny template for bootstrapping a new job-queue-based microservice.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon",
+    "test": "nodemon --exec \"node ./src/test.js\""
+  },
+  "dependencies": {
+    "@artlife/micro-job": "0.0.27"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
